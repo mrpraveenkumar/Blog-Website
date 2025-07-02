@@ -1,0 +1,379 @@
+[14:54:22.841] Running build in Washington, D.C., USA (East) – iad1
+[14:54:22.850] Build machine configuration: 2 cores, 8 GB
+[14:54:22.885] Cloning github.com/mrpraveenkumar/w3forcast (Branch: main, Commit: 47d2fd2)
+[14:54:23.148] Previous build caches not available
+[14:54:23.393] Cloning completed: 508.000ms
+[14:54:23.758] Running "vercel build"
+[14:54:24.553] Vercel CLI 43.3.0
+[14:54:24.884] Installing dependencies...
+[14:54:51.229] 
+[14:54:51.230] added 669 packages in 26s
+[14:54:51.230] 
+[14:54:51.231] 250 packages are looking for funding
+[14:54:51.231]   run `npm fund` for details
+[14:54:51.275] Detected Next.js version: 13.5.11
+[14:54:51.281] Running "npm run build"
+[14:54:51.394] 
+[14:54:51.395] > developer-blog-starter-code@0.1.0 build
+[14:54:51.395] > next build
+[14:54:51.395] 
+[14:54:51.936] Attention: Next.js now collects completely anonymous telemetry regarding usage.
+[14:54:51.937] This information is used to shape Next.js' roadmap and prioritize features.
+[14:54:51.938] You can learn more, including how to opt-out if you'd not like to participate in this anonymous program, by visiting the following URL:
+[14:54:51.938] https://nextjs.org/telemetry
+[14:54:51.938] 
+[14:54:52.005]    Creating an optimized production build ...
+[14:54:55.700] Generated 11 documents in .contentlayer
+[14:55:05.009] Browserslist: caniuse-lite is outdated. Please run:
+[14:55:05.010]   npx update-browserslist-db@latest
+[14:55:05.010]   Why you should do it regularly: https://github.com/browserslist/update-db#readme
+[14:55:08.376] Browserslist: caniuse-lite is outdated. Please run:
+[14:55:08.377]   npx browserslist@latest --update-db
+[14:55:08.377]   Why you should do it regularly: https://github.com/browserslist/browserslist#browsers-data-updating
+[14:55:09.601]  ⚠ Compiled with warnings
+[14:55:09.602] 
+[14:55:09.602] ./node_modules/ws/lib/buffer-util.js
+[14:55:09.602] Module not found: Can't resolve 'bufferutil' in '/vercel/path0/node_modules/ws/lib'
+[14:55:09.602] 
+[14:55:09.602] Import trace for requested module:
+[14:55:09.602] ./node_modules/ws/lib/buffer-util.js
+[14:55:09.602] ./node_modules/ws/lib/websocket.js
+[14:55:09.602] ./node_modules/ws/index.js
+[14:55:09.602] ./node_modules/@supabase/realtime-js/dist/main/RealtimeClient.js
+[14:55:09.602] ./node_modules/@supabase/realtime-js/dist/main/index.js
+[14:55:09.602] ./node_modules/@supabase/supabase-js/dist/main/index.js
+[14:55:09.602] ./node_modules/@supabase/auth-helpers-shared/dist/index.js
+[14:55:09.603] ./node_modules/@supabase/auth-helpers-nextjs/dist/index.js
+[14:55:09.603] ./src/components/Blog/ViewCounter.js
+[14:55:09.603] 
+[14:55:09.603] ./node_modules/ws/lib/validation.js
+[14:55:09.603] Module not found: Can't resolve 'utf-8-validate' in '/vercel/path0/node_modules/ws/lib'
+[14:55:09.603] 
+[14:55:09.603] Import trace for requested module:
+[14:55:09.604] ./node_modules/ws/lib/validation.js
+[14:55:09.604] ./node_modules/ws/lib/receiver.js
+[14:55:09.604] ./node_modules/ws/index.js
+[14:55:09.604] ./node_modules/@supabase/realtime-js/dist/main/RealtimeClient.js
+[14:55:09.604] ./node_modules/@supabase/realtime-js/dist/main/index.js
+[14:55:09.604] ./node_modules/@supabase/supabase-js/dist/main/index.js
+[14:55:09.604] ./node_modules/@supabase/auth-helpers-shared/dist/index.js
+[14:55:09.605] ./node_modules/@supabase/auth-helpers-nextjs/dist/index.js
+[14:55:09.605] ./src/components/Blog/ViewCounter.js
+[14:55:09.605] 
+[14:55:09.605]    Linting and checking validity of types ...
+[14:55:10.983]  ⨯ ESLint: Cannot read properties of undefined (reading 'map') Occurred while linting /vercel/path0/src/app/(about)/about/page.js:17 Rule: "react/no-unescaped-entities"
+[14:55:10.984]    Collecting page data ...
+[14:55:12.861]    Generating static pages (0/37) ...
+[14:55:13.649] ReferenceError: document is not defined
+[14:55:13.650]     at createTag (/vercel/path0/.next/server/chunks/258.js:51:6980)
+[14:55:13.650]     at /vercel/path0/.next/server/chunks/258.js:51:20660
+[14:55:13.650]     at /vercel/path0/.next/server/chunks/258.js:51:20790
+[14:55:13.650]     at /vercel/path0/.next/server/chunks/258.js:51:23726
+[14:55:13.650]     at /vercel/path0/.next/server/chunks/258.js:51:6524
+[14:55:13.650]     at /vercel/path0/.next/server/chunks/258.js:51:6651
+[14:55:13.650]     at /vercel/path0/.next/server/chunks/258.js:1:29446
+[14:55:13.650]     at 139 (/vercel/path0/.next/server/chunks/258.js:52:394597)
+[14:55:13.651]     at __webpack_require__ (/vercel/path0/.next/server/webpack-runtime.js:1:146)
+[14:55:13.651]     at 7685 (/vercel/path0/.next/server/chunks/258.js:52:412929)
+[14:55:13.752] 
+[14:55:13.753] Error occurred prerendering page "/contact". Read more: https://nextjs.org/docs/messages/prerender-error
+[14:55:13.753] ReferenceError: document is not defined
+[14:55:13.753]     at createTag (/vercel/path0/.next/server/chunks/258.js:51:6980)
+[14:55:13.753]     at /vercel/path0/.next/server/chunks/258.js:51:20660
+[14:55:13.754]     at /vercel/path0/.next/server/chunks/258.js:51:20790
+[14:55:13.754]     at /vercel/path0/.next/server/chunks/258.js:51:23726
+[14:55:13.754]     at /vercel/path0/.next/server/chunks/258.js:51:6524
+[14:55:13.754]     at /vercel/path0/.next/server/chunks/258.js:51:6651
+[14:55:13.754]     at /vercel/path0/.next/server/chunks/258.js:1:29446
+[14:55:13.755]     at 139 (/vercel/path0/.next/server/chunks/258.js:52:394597)
+[14:55:13.755]     at __webpack_require__ (/vercel/path0/.next/server/webpack-runtime.js:1:146)
+[14:55:13.755]     at 7685 (/vercel/path0/.next/server/chunks/258.js:52:412929)
+[14:55:13.854] Error: either NEXT_PUBLIC_SUPABASE_URL and NEXT_PUBLIC_SUPABASE_ANON_KEY env variables or supabaseUrl and supabaseKey are required!
+[14:55:13.855]     at createClientComponentClient (/vercel/path0/.next/server/chunks/177.js:1:1235)
+[14:55:13.855]     at 600 (/vercel/path0/.next/server/app/blogs/[slug]/page.js:1:3899)
+[14:55:13.855]     at __webpack_require__ (/vercel/path0/.next/server/webpack-runtime.js:1:146)
+[14:55:13.855]     at A (/vercel/path0/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:35:5655)
+[14:55:13.858]     at R (/vercel/path0/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:35:4334)
+[14:55:13.858]     at rh (/vercel/path0/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:27:25718)
+[14:55:13.858]     at ny (/vercel/path0/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:27:50004)
+[14:55:13.858]     at nv (/vercel/path0/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:27:55162)
+[14:55:13.859]     at nh (/vercel/path0/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:27:46622)
+[14:55:13.859]     at ny (/vercel/path0/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:27:52524)
+[14:55:13.888] 
+[14:55:13.888] Error occurred prerendering page "/blogs/automating-repetitive-tasks-productivity-hacks-for-developers". Read more: https://nextjs.org/docs/messages/prerender-error
+[14:55:13.888] Error: either NEXT_PUBLIC_SUPABASE_URL and NEXT_PUBLIC_SUPABASE_ANON_KEY env variables or supabaseUrl and supabaseKey are required!
+[14:55:13.888]     at createClientComponentClient (/vercel/path0/.next/server/chunks/177.js:1:1235)
+[14:55:13.888]     at 600 (/vercel/path0/.next/server/app/blogs/[slug]/page.js:1:3899)
+[14:55:13.888]     at __webpack_require__ (/vercel/path0/.next/server/webpack-runtime.js:1:146)
+[14:55:13.888]     at A (/vercel/path0/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:35:5655)
+[14:55:13.888]     at R (/vercel/path0/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:35:4334)
+[14:55:13.888]     at rh (/vercel/path0/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:27:25718)
+[14:55:13.889]     at ny (/vercel/path0/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:27:50004)
+[14:55:13.889]     at nv (/vercel/path0/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:27:55162)
+[14:55:13.889]     at nh (/vercel/path0/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:27:46622)
+[14:55:13.889]     at ny (/vercel/path0/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:27:52524)
+[14:55:13.889] 
+   Generating static pages (9/37) 
+[14:55:13.962] Error: either NEXT_PUBLIC_SUPABASE_URL and NEXT_PUBLIC_SUPABASE_ANON_KEY env variables or supabaseUrl and supabaseKey are required!
+[14:55:13.967]     at createClientComponentClient (/vercel/path0/.next/server/chunks/177.js:1:1235)
+[14:55:13.967]     at 600 (/vercel/path0/.next/server/app/blogs/[slug]/page.js:1:3899)
+[14:55:13.967]     at __webpack_require__ (/vercel/path0/.next/server/webpack-runtime.js:1:146)
+[14:55:13.967]     at A (/vercel/path0/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:35:5655)
+[14:55:13.967]     at R (/vercel/path0/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:35:4334)
+[14:55:13.967]     at rh (/vercel/path0/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:27:25718)
+[14:55:13.967]     at ny (/vercel/path0/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:27:50004)
+[14:55:13.967]     at nv (/vercel/path0/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:27:55162)
+[14:55:13.967]     at nh (/vercel/path0/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:27:46622)
+[14:55:13.967]     at ny (/vercel/path0/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:27:52524)
+[14:55:13.967] 
+[14:55:13.967] Error occurred prerendering page "/blogs/best-practices-for-writing-clean-and-maintainable-code". Read more: https://nextjs.org/docs/messages/prerender-error
+[14:55:13.967] Error: either NEXT_PUBLIC_SUPABASE_URL and NEXT_PUBLIC_SUPABASE_ANON_KEY env variables or supabaseUrl and supabaseKey are required!
+[14:55:13.969]     at createClientComponentClient (/vercel/path0/.next/server/chunks/177.js:1:1235)
+[14:55:13.969]     at 600 (/vercel/path0/.next/server/app/blogs/[slug]/page.js:1:3899)
+[14:55:13.969]     at __webpack_require__ (/vercel/path0/.next/server/webpack-runtime.js:1:146)
+[14:55:13.969]     at A (/vercel/path0/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:35:5655)
+[14:55:13.969]     at R (/vercel/path0/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:35:4334)
+[14:55:13.969]     at rh (/vercel/path0/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:27:25718)
+[14:55:13.969]     at ny (/vercel/path0/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:27:50004)
+[14:55:13.969]     at nv (/vercel/path0/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:27:55162)
+[14:55:13.969]     at nh (/vercel/path0/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:27:46622)
+[14:55:13.969]     at ny (/vercel/path0/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:27:52524)
+[14:55:14.026] Error: either NEXT_PUBLIC_SUPABASE_URL and NEXT_PUBLIC_SUPABASE_ANON_KEY env variables or supabaseUrl and supabaseKey are required!
+[14:55:14.026]     at createClientComponentClient (/vercel/path0/.next/server/chunks/177.js:1:1235)
+[14:55:14.026]     at 600 (/vercel/path0/.next/server/app/blogs/[slug]/page.js:1:3899)
+[14:55:14.026]     at __webpack_require__ (/vercel/path0/.next/server/webpack-runtime.js:1:146)
+[14:55:14.026]     at A (/vercel/path0/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:35:5655)
+[14:55:14.026]     at R (/vercel/path0/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:35:4334)
+[14:55:14.026]     at rh (/vercel/path0/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:27:25718)
+[14:55:14.026]     at ny (/vercel/path0/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:27:50004)
+[14:55:14.026]     at nv (/vercel/path0/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:27:55162)
+[14:55:14.026]     at nh (/vercel/path0/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:27:46622)
+[14:55:14.027]     at ny (/vercel/path0/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:27:52524)
+[14:55:14.027] 
+[14:55:14.027] Error occurred prerendering page "/blogs/building-progressive-web-apps-bridging-the-gap-between-web-and-mobile". Read more: https://nextjs.org/docs/messages/prerender-error
+[14:55:14.027] Error: either NEXT_PUBLIC_SUPABASE_URL and NEXT_PUBLIC_SUPABASE_ANON_KEY env variables or supabaseUrl and supabaseKey are required!
+[14:55:14.027]     at createClientComponentClient (/vercel/path0/.next/server/chunks/177.js:1:1235)
+[14:55:14.027]     at 600 (/vercel/path0/.next/server/app/blogs/[slug]/page.js:1:3899)
+[14:55:14.027]     at __webpack_require__ (/vercel/path0/.next/server/webpack-runtime.js:1:146)
+[14:55:14.027]     at A (/vercel/path0/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:35:5655)
+[14:55:14.027]     at R (/vercel/path0/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:35:4334)
+[14:55:14.027]     at rh (/vercel/path0/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:27:25718)
+[14:55:14.027]     at ny (/vercel/path0/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:27:50004)
+[14:55:14.027]     at nv (/vercel/path0/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:27:55162)
+[14:55:14.027]     at nh (/vercel/path0/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:27:46622)
+[14:55:14.027]     at ny (/vercel/path0/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:27:52524)
+[14:55:14.653] Error: either NEXT_PUBLIC_SUPABASE_URL and NEXT_PUBLIC_SUPABASE_ANON_KEY env variables or supabaseUrl and supabaseKey are required!
+[14:55:14.654]     at createClientComponentClient (/vercel/path0/.next/server/chunks/177.js:1:1235)
+[14:55:14.655]     at 600 (/vercel/path0/.next/server/app/blogs/[slug]/page.js:1:3899)
+[14:55:14.655]     at __webpack_require__ (/vercel/path0/.next/server/webpack-runtime.js:1:146)
+[14:55:14.655]     at A (/vercel/path0/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:35:5655)
+[14:55:14.656]     at R (/vercel/path0/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:35:4334)
+[14:55:14.656]     at rh (/vercel/path0/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:27:25718)
+[14:55:14.656]     at ny (/vercel/path0/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:27:50004)
+[14:55:14.656]     at nv (/vercel/path0/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:27:55162)
+[14:55:14.657]     at nh (/vercel/path0/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:27:46622)
+[14:55:14.657]     at ny (/vercel/path0/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:27:52524)
+[14:55:14.657] 
+[14:55:14.658] Error occurred prerendering page "/blogs/js-frameworks-comparison". Read more: https://nextjs.org/docs/messages/prerender-error
+[14:55:14.658] Error: either NEXT_PUBLIC_SUPABASE_URL and NEXT_PUBLIC_SUPABASE_ANON_KEY env variables or supabaseUrl and supabaseKey are required!
+[14:55:14.658]     at createClientComponentClient (/vercel/path0/.next/server/chunks/177.js:1:1235)
+[14:55:14.658]     at 600 (/vercel/path0/.next/server/app/blogs/[slug]/page.js:1:3899)
+[14:55:14.658]     at __webpack_require__ (/vercel/path0/.next/server/webpack-runtime.js:1:146)
+[14:55:14.659]     at A (/vercel/path0/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:35:5655)
+[14:55:14.659]     at R (/vercel/path0/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:35:4334)
+[14:55:14.660]     at rh (/vercel/path0/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:27:25718)
+[14:55:14.660]     at ny (/vercel/path0/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:27:50004)
+[14:55:14.660]     at nv (/vercel/path0/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:27:55162)
+[14:55:14.660]     at nh (/vercel/path0/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:27:46622)
+[14:55:14.660]     at ny (/vercel/path0/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:27:52524)
+[14:55:14.689] Error: either NEXT_PUBLIC_SUPABASE_URL and NEXT_PUBLIC_SUPABASE_ANON_KEY env variables or supabaseUrl and supabaseKey are required!
+[14:55:14.689]     at createClientComponentClient (/vercel/path0/.next/server/chunks/177.js:1:1235)
+[14:55:14.689]     at 600 (/vercel/path0/.next/server/app/blogs/[slug]/page.js:1:3899)
+[14:55:14.689]     at __webpack_require__ (/vercel/path0/.next/server/webpack-runtime.js:1:146)
+[14:55:14.689]     at A (/vercel/path0/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:35:5655)
+[14:55:14.690]     at R (/vercel/path0/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:35:4334)
+[14:55:14.690]     at rh (/vercel/path0/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:27:25718)
+[14:55:14.690]     at ny (/vercel/path0/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:27:50004)
+[14:55:14.690]     at nv (/vercel/path0/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:27:55162)
+[14:55:14.690]     at nh (/vercel/path0/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:27:46622)
+[14:55:14.690]     at ny (/vercel/path0/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:27:52524)
+[14:55:14.704] 
+[14:55:14.704] Error occurred prerendering page "/blogs/mastering-css-grid-layout". Read more: https://nextjs.org/docs/messages/prerender-error
+[14:55:14.704] Error: either NEXT_PUBLIC_SUPABASE_URL and NEXT_PUBLIC_SUPABASE_ANON_KEY env variables or supabaseUrl and supabaseKey are required!
+[14:55:14.704]     at createClientComponentClient (/vercel/path0/.next/server/chunks/177.js:1:1235)
+[14:55:14.704]     at 600 (/vercel/path0/.next/server/app/blogs/[slug]/page.js:1:3899)
+[14:55:14.705]     at __webpack_require__ (/vercel/path0/.next/server/webpack-runtime.js:1:146)
+[14:55:14.705]     at A (/vercel/path0/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:35:5655)
+[14:55:14.705]     at R (/vercel/path0/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:35:4334)
+[14:55:14.705]     at rh (/vercel/path0/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:27:25718)
+[14:55:14.705]     at ny (/vercel/path0/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:27:50004)
+[14:55:14.705]     at nv (/vercel/path0/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:27:55162)
+[14:55:14.705]     at nh (/vercel/path0/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:27:46622)
+[14:55:14.706]     at ny (/vercel/path0/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:27:52524)
+[14:55:14.743] Error: either NEXT_PUBLIC_SUPABASE_URL and NEXT_PUBLIC_SUPABASE_ANON_KEY env variables or supabaseUrl and supabaseKey are required!
+[14:55:14.743]     at createClientComponentClient (/vercel/path0/.next/server/chunks/177.js:1:1235)
+[14:55:14.743]     at 600 (/vercel/path0/.next/server/app/blogs/[slug]/page.js:1:3899)
+[14:55:14.743]     at __webpack_require__ (/vercel/path0/.next/server/webpack-runtime.js:1:146)
+[14:55:14.743]     at A (/vercel/path0/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:35:5655)
+[14:55:14.743]     at R (/vercel/path0/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:35:4334)
+[14:55:14.743]     at rh (/vercel/path0/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:27:25718)
+[14:55:14.744]     at ny (/vercel/path0/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:27:50004)
+[14:55:14.744]     at nv (/vercel/path0/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:27:55162)
+[14:55:14.744]     at nh (/vercel/path0/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:27:46622)
+[14:55:14.744]     at ny (/vercel/path0/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:27:52524)
+[14:55:14.757] 
+[14:55:14.759] Error occurred prerendering page "/blogs/mindfulness-and-meditation-techniques-for-developers-improving-focus-and-clarity". Read more: https://nextjs.org/docs/messages/prerender-error
+[14:55:14.759] Error: either NEXT_PUBLIC_SUPABASE_URL and NEXT_PUBLIC_SUPABASE_ANON_KEY env variables or supabaseUrl and supabaseKey are required!
+[14:55:14.759]     at createClientComponentClient (/vercel/path0/.next/server/chunks/177.js:1:1235)
+[14:55:14.759]     at 600 (/vercel/path0/.next/server/app/blogs/[slug]/page.js:1:3899)
+[14:55:14.759]     at __webpack_require__ (/vercel/path0/.next/server/webpack-runtime.js:1:146)
+[14:55:14.759]     at A (/vercel/path0/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:35:5655)
+[14:55:14.759]     at R (/vercel/path0/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:35:4334)
+[14:55:14.759]     at rh (/vercel/path0/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:27:25718)
+[14:55:14.759]     at ny (/vercel/path0/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:27:50004)
+[14:55:14.759]     at nv (/vercel/path0/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:27:55162)
+[14:55:14.759]     at nh (/vercel/path0/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:27:46622)
+[14:55:14.759]     at ny (/vercel/path0/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:27:52524)
+[14:55:14.927] Error: either NEXT_PUBLIC_SUPABASE_URL and NEXT_PUBLIC_SUPABASE_ANON_KEY env variables or supabaseUrl and supabaseKey are required!
+[14:55:14.927]     at createClientComponentClient (/vercel/path0/.next/server/chunks/177.js:1:1235)
+[14:55:14.927]     at 600 (/vercel/path0/.next/server/app/blogs/[slug]/page.js:1:3899)
+[14:55:14.927]     at __webpack_require__ (/vercel/path0/.next/server/webpack-runtime.js:1:146)
+[14:55:14.927]     at A (/vercel/path0/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:35:5655)
+[14:55:14.927]     at R (/vercel/path0/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:35:4334)
+[14:55:14.927]     at rh (/vercel/path0/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:27:25718)
+[14:55:14.927]     at ny (/vercel/path0/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:27:50004)
+[14:55:14.927]     at nv (/vercel/path0/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:27:55162)
+[14:55:14.928]     at nh (/vercel/path0/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:27:46622)
+[14:55:14.928]     at ny (/vercel/path0/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:27:52524)
+[14:55:14.928] 
+[14:55:14.928] Error occurred prerendering page "/blogs/progressive-web-apps-pwa". Read more: https://nextjs.org/docs/messages/prerender-error
+[14:55:14.931] Error: either NEXT_PUBLIC_SUPABASE_URL and NEXT_PUBLIC_SUPABASE_ANON_KEY env variables or supabaseUrl and supabaseKey are required!
+[14:55:14.931]     at createClientComponentClient (/vercel/path0/.next/server/chunks/177.js:1:1235)
+[14:55:14.931]     at 600 (/vercel/path0/.next/server/app/blogs/[slug]/page.js:1:3899)
+[14:55:14.931]     at __webpack_require__ (/vercel/path0/.next/server/webpack-runtime.js:1:146)
+[14:55:14.931]     at A (/vercel/path0/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:35:5655)
+[14:55:14.931]     at R (/vercel/path0/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:35:4334)
+[14:55:14.931]     at rh (/vercel/path0/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:27:25718)
+[14:55:14.931]     at ny (/vercel/path0/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:27:50004)
+[14:55:14.931]     at nv (/vercel/path0/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:27:55162)
+[14:55:14.931]     at nh (/vercel/path0/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:27:46622)
+[14:55:14.931]     at ny (/vercel/path0/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:27:52524)
+[14:55:14.969] Error: either NEXT_PUBLIC_SUPABASE_URL and NEXT_PUBLIC_SUPABASE_ANON_KEY env variables or supabaseUrl and supabaseKey are required!
+[14:55:14.969]     at createClientComponentClient (/vercel/path0/.next/server/chunks/177.js:1:1235)
+[14:55:14.969]     at 600 (/vercel/path0/.next/server/app/blogs/[slug]/page.js:1:3899)
+[14:55:14.970]     at __webpack_require__ (/vercel/path0/.next/server/webpack-runtime.js:1:146)
+[14:55:14.970]     at A (/vercel/path0/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:35:5655)
+[14:55:14.970]     at R (/vercel/path0/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:35:4334)
+[14:55:14.970]     at rh (/vercel/path0/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:27:25718)
+[14:55:14.970]     at ny (/vercel/path0/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:27:50004)
+[14:55:14.970]     at nv (/vercel/path0/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:27:55162)
+[14:55:14.970]     at nh (/vercel/path0/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:27:46622)
+[14:55:14.971]     at ny (/vercel/path0/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:27:52524)
+[14:55:15.067] 
+[14:55:15.069] Error occurred prerendering page "/blogs/restful-apis-building-blocks". Read more: https://nextjs.org/docs/messages/prerender-error
+[14:55:15.069] Error: either NEXT_PUBLIC_SUPABASE_URL and NEXT_PUBLIC_SUPABASE_ANON_KEY env variables or supabaseUrl and supabaseKey are required!
+[14:55:15.070]     at createClientComponentClient (/vercel/path0/.next/server/chunks/177.js:1:1235)
+[14:55:15.070]     at 600 (/vercel/path0/.next/server/app/blogs/[slug]/page.js:1:3899)
+[14:55:15.070]     at __webpack_require__ (/vercel/path0/.next/server/webpack-runtime.js:1:146)
+[14:55:15.070]     at A (/vercel/path0/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:35:5655)
+[14:55:15.070]     at R (/vercel/path0/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:35:4334)
+[14:55:15.071]     at rh (/vercel/path0/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:27:25718)
+[14:55:15.071]     at ny (/vercel/path0/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:27:50004)
+[14:55:15.071]     at nv (/vercel/path0/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:27:55162)
+[14:55:15.071]     at nh (/vercel/path0/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:27:46622)
+[14:55:15.071]     at ny (/vercel/path0/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:27:52524)
+[14:55:15.162] Error: either NEXT_PUBLIC_SUPABASE_URL and NEXT_PUBLIC_SUPABASE_ANON_KEY env variables or supabaseUrl and supabaseKey are required!
+[14:55:15.162]     at createClientComponentClient (/vercel/path0/.next/server/chunks/177.js:1:1235)
+[14:55:15.162]     at 600 (/vercel/path0/.next/server/app/blogs/[slug]/page.js:1:3899)
+[14:55:15.163]     at __webpack_require__ (/vercel/path0/.next/server/webpack-runtime.js:1:146)
+[14:55:15.163]     at A (/vercel/path0/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:35:5655)
+[14:55:15.163]     at R (/vercel/path0/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:35:4334)
+[14:55:15.163]     at rh (/vercel/path0/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:27:25718)
+[14:55:15.164]     at ny (/vercel/path0/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:27:50004)
+[14:55:15.164]     at nv (/vercel/path0/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:27:55162)
+[14:55:15.164]     at nh (/vercel/path0/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:27:46622)
+[14:55:15.164]     at ny (/vercel/path0/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:27:52524)
+[14:55:15.165] 
+[14:55:15.165] Error occurred prerendering page "/blogs/web-accessibility-best-practices". Read more: https://nextjs.org/docs/messages/prerender-error
+[14:55:15.165] Error: either NEXT_PUBLIC_SUPABASE_URL and NEXT_PUBLIC_SUPABASE_ANON_KEY env variables or supabaseUrl and supabaseKey are required!
+[14:55:15.165]     at createClientComponentClient (/vercel/path0/.next/server/chunks/177.js:1:1235)
+[14:55:15.165]     at 600 (/vercel/path0/.next/server/app/blogs/[slug]/page.js:1:3899)
+[14:55:15.165]     at __webpack_require__ (/vercel/path0/.next/server/webpack-runtime.js:1:146)
+[14:55:15.166]     at A (/vercel/path0/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:35:5655)
+[14:55:15.166]     at R (/vercel/path0/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:35:4334)
+[14:55:15.166]     at rh (/vercel/path0/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:27:25718)
+[14:55:15.166]     at ny (/vercel/path0/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:27:50004)
+[14:55:15.167]     at nv (/vercel/path0/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:27:55162)
+[14:55:15.167]     at nh (/vercel/path0/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:27:46622)
+[14:55:15.167]     at ny (/vercel/path0/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:27:52524)
+[14:55:15.706] Error: either NEXT_PUBLIC_SUPABASE_URL and NEXT_PUBLIC_SUPABASE_ANON_KEY env variables or supabaseUrl and supabaseKey are required!
+[14:55:15.706]     at createClientComponentClient (/vercel/path0/.next/server/chunks/177.js:1:1235)
+[14:55:15.707]     at 600 (/vercel/path0/.next/server/app/blogs/[slug]/page.js:1:3899)
+[14:55:15.708]     at __webpack_require__ (/vercel/path0/.next/server/webpack-runtime.js:1:146)
+[14:55:15.708]     at A (/vercel/path0/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:35:5655)
+[14:55:15.708]     at R (/vercel/path0/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:35:4334)
+[14:55:15.708]     at rh (/vercel/path0/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:27:25718)
+[14:55:15.708]     at ny (/vercel/path0/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:27:50004)
+[14:55:15.708]     at nv (/vercel/path0/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:27:55162)
+[14:55:15.709]     at nh (/vercel/path0/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:27:46622)
+[14:55:15.709]     at ny (/vercel/path0/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:27:52524)
+[14:55:15.709] 
+[14:55:15.709] Error occurred prerendering page "/blogs/web-accessibility-inclusive-design". Read more: https://nextjs.org/docs/messages/prerender-error
+[14:55:15.709] Error: either NEXT_PUBLIC_SUPABASE_URL and NEXT_PUBLIC_SUPABASE_ANON_KEY env variables or supabaseUrl and supabaseKey are required!
+[14:55:15.710]     at createClientComponentClient (/vercel/path0/.next/server/chunks/177.js:1:1235)
+[14:55:15.710]     at 600 (/vercel/path0/.next/server/app/blogs/[slug]/page.js:1:3899)
+[14:55:15.710]     at __webpack_require__ (/vercel/path0/.next/server/webpack-runtime.js:1:146)
+[14:55:15.711]     at A (/vercel/path0/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:35:5655)
+[14:55:15.711]     at R (/vercel/path0/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:35:4334)
+[14:55:15.712]     at rh (/vercel/path0/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:27:25718)
+[14:55:15.712]     at ny (/vercel/path0/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:27:50004)
+[14:55:15.712]     at nv (/vercel/path0/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:27:55162)
+[14:55:15.712]     at nh (/vercel/path0/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:27:46622)
+[14:55:15.712]     at ny (/vercel/path0/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:27:52524)
+[14:55:15.714] 
+   Generating static pages (18/37) 
+[14:55:15.920] Error: either NEXT_PUBLIC_SUPABASE_URL and NEXT_PUBLIC_SUPABASE_ANON_KEY env variables or supabaseUrl and supabaseKey are required!
+[14:55:15.921]     at createClientComponentClient (/vercel/path0/.next/server/chunks/177.js:1:1235)
+[14:55:15.921]     at 600 (/vercel/path0/.next/server/app/blogs/[slug]/page.js:1:3899)
+[14:55:15.922]     at __webpack_require__ (/vercel/path0/.next/server/webpack-runtime.js:1:146)
+[14:55:15.922]     at A (/vercel/path0/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:35:5655)
+[14:55:15.922]     at R (/vercel/path0/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:35:4334)
+[14:55:15.922]     at rh (/vercel/path0/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:27:25718)
+[14:55:15.922]     at ny (/vercel/path0/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:27:50004)
+[14:55:15.922]     at nv (/vercel/path0/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:27:55162)
+[14:55:15.923]     at nh (/vercel/path0/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:27:46622)
+[14:55:15.923]     at ny (/vercel/path0/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:27:52524)
+[14:55:15.923] 
+[14:55:15.923] Error occurred prerendering page "/blogs/web-development-tools-productivity". Read more: https://nextjs.org/docs/messages/prerender-error
+[14:55:15.923] Error: either NEXT_PUBLIC_SUPABASE_URL and NEXT_PUBLIC_SUPABASE_ANON_KEY env variables or supabaseUrl and supabaseKey are required!
+[14:55:15.923]     at createClientComponentClient (/vercel/path0/.next/server/chunks/177.js:1:1235)
+[14:55:15.923]     at 600 (/vercel/path0/.next/server/app/blogs/[slug]/page.js:1:3899)
+[14:55:15.923]     at __webpack_require__ (/vercel/path0/.next/server/webpack-runtime.js:1:146)
+[14:55:15.923]     at A (/vercel/path0/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:35:5655)
+[14:55:15.923]     at R (/vercel/path0/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:35:4334)
+[14:55:15.923]     at rh (/vercel/path0/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:27:25718)
+[14:55:15.923]     at ny (/vercel/path0/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:27:50004)
+[14:55:15.923]     at nv (/vercel/path0/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:27:55162)
+[14:55:15.923]     at nh (/vercel/path0/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:27:46622)
+[14:55:15.923]     at ny (/vercel/path0/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:27:52524)
+[14:55:16.538] 
+   Generating static pages (27/37) 
+[14:55:19.013] 
+ ✓ Generating static pages (37/37) 
+[14:55:19.016] 
+[14:55:19.017] > Export encountered errors on following paths:
+[14:55:19.017] 	/(about)/contact/page: /contact
+[14:55:19.018] 	/blogs/[slug]/page: /blogs/automating-repetitive-tasks-productivity-hacks-for-developers
+[14:55:19.019] 	/blogs/[slug]/page: /blogs/best-practices-for-writing-clean-and-maintainable-code
+[14:55:19.019] 	/blogs/[slug]/page: /blogs/building-progressive-web-apps-bridging-the-gap-between-web-and-mobile
+[14:55:19.019] 	/blogs/[slug]/page: /blogs/js-frameworks-comparison
+[14:55:19.019] 	/blogs/[slug]/page: /blogs/mastering-css-grid-layout
+[14:55:19.020] 	/blogs/[slug]/page: /blogs/mindfulness-and-meditation-techniques-for-developers-improving-focus-and-clarity
+[14:55:19.020] 	/blogs/[slug]/page: /blogs/progressive-web-apps-pwa
+[14:55:19.020] 	/blogs/[slug]/page: /blogs/restful-apis-building-blocks
+[14:55:19.020] 	/blogs/[slug]/page: /blogs/web-accessibility-best-practices
+[14:55:19.020] 	/blogs/[slug]/page: /blogs/web-accessibility-inclusive-design
+[14:55:19.020] 	/blogs/[slug]/page: /blogs/web-development-tools-productivity
+[14:55:19.088] Error: Command "npm run build" exited with 1
+[14:55:19.511] 
+[14:55:22.283] Exiting build container
